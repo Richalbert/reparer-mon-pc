@@ -9,7 +9,7 @@
 
   <!-- Description -->
   <meta name="description" 
-        content="Réparation et mise à niveau d'ordinateurs à Gaillac : migration Windows 11, installation Linux, remplacement de disque dur HDD par SSD, optimisation PC, dépannage et formation à domicile, assistance à domicile. Paiement CESU et réduction d’impôts 50 %. Technicien indépendant à Gaillac. Devis gratuit. Contact : contact@reparer-mon-pc.fr" />
+        content="Réparation et mise à niveau d'ordinateurs à Gaillac : migration Windows 11, installation Linux, remplacement de disque dur HDD par SSD, optimisation PC, dépannage, assistance et formation à domicile. Paiement CESU et réduction d’impôts 50 %. Technicien indépendant à Gaillac. Devis gratuit. Contact : contact@reparer-mon-pc.fr" />
 
   <!-- Auteur -->
   <meta name="author" content="Richard Benazerat">
@@ -52,8 +52,8 @@
     "areaServed": "Gaillac et alentours",
     "url": "https://www.reparer-mon-pc.fr/",
     "email": "contact@reparer-mon-pc.fr",
-    "telephone": "+33 6 xx xx xx xx",
-    "image": "https://www.reparer-mon-pc.fr/og-cover.png"
+    "telephone": "+33 6 99 36 77 36",
+    "image": "https://www.reparer-mon-pc.fr/images/og-image.png"
   }
   </script>
 
@@ -178,11 +178,12 @@
   </header>
 
   <main class="container" id="content">
-    <p class="intro"><strong>Redonnez vie à votre ordinateur — sans vous ruiner.</strong><br/>Migration Windows 10→11, installation Linux, remplacement HDD→SSD, ajout de RAM et configuration logicielle. Intervention rapide à Gaillac et communes voisines.</p>
+    <p class="intro"><strong>Redonnez vie à votre ordinateur et sans vous ruiner.</strong><br/>Migration Windows 10→11, installation Linux, remplacement HDD→SSD, ajout de RAM et configuration logicielle. Intervention rapide à Gaillac et communes voisines.</p>
 
     <section id="services" aria-labelledby="services-title">
       <h2 id="services-title" style="margin:22px 0 10px">Nos services</h2>
       <div class="grid" role="list">
+
         <!-- Service 1 -->
         <article class="card" role="listitem">
           <div class="icon blue" aria-hidden="true">🪟</div>
@@ -190,6 +191,7 @@
           <p>Passez à Windows 11 avant la fin de support de Windows 10. Sauvegarde, installation et configuration incluses.</p>
           <p class="price">80 €</p>
         </article>
+
         <!-- Service 2 -->
         <article class="card" role="listitem">
           <div class="icon green" aria-hidden="true">🐧</div>
@@ -197,6 +199,7 @@
           <p>Alternative rapide, sécurisée et gratuite à Windows. Idéale pour redonner une seconde vie à un PC ancien. Inclut 1 h d’initiation.</p>
           <p class="price">100 € + 1 h de formation</p>
         </article>
+
         <!-- Service 3 -->
         <article class="card" role="listitem">
           <div class="icon orange" aria-hidden="true">⚡</div>
@@ -220,41 +223,58 @@
    <!-- informations de contact -->
     <section class="contact" aria-labelledby="contact-title">
       <h2 id="contact-title" style="margin:0 0 6px">Contact</h2>
-      <p class="big"><a href="mailto:contact@reparer-mon-pc.fr">contact@reparer-mon-pc.fr</a></p>
-      <p class="muted">Basé à Gaillac et environs • Réponse sous 24h • Intervention à domicile ou à distance</p>
-    </section>
+      
+      <p class="big">
+        <a href="mailto:contact@reparer-mon-pc.fr">contact@reparer-mon-pc.fr</a>
+      </p>
 
+      <p class="big">
+        📞 <a href="tel:+33699367736">06&nbsp;99&nbsp;36&nbsp;77&nbsp;36</a>
+      </p>
+
+      <p class="muted">
+        Basé à Gaillac et environs • Réponse sous 24h • Intervention à domicile ou à distance
+      </p>
+
+    </section>
 
     <!-- informations de contact pour le formulaire Contact form (Formspree) -->
     <section class="contact" id="formulaire" aria-labelledby="form-title">
       <h2 id="form-title" style="margin:0 0 6px">Me laisser un message</h2>
 
-      <form id="fs-contact" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" class="contact-form" novalidate>
+      <form id="fs-contact" action="https://formspree.io/f/xvgwbzpd" method="POST" class="contact-form" novalidate>
         <div class="row">
+
           <label>
             <span>Votre nom *</span>
             <input type="text" name="nom" required>
           </label>
+
           <label>
             <span>Votre e‑mail *</span>
             <input type="email" name="email" required>
           </label>
+
         </div>
+
         <label>
           <span>Votre message *</span>
           <textarea name="message" rows="6" required></textarea>
         </label>
+
         <div class="row fine">
           <label>
             <span class="sr-only">Champ anti‑spam (laissez vide)</span>
             <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-5000px">
           </label>
+
           <label class="consent">
             <input type="checkbox" name="consent" required>
             <span>J’accepte que mes informations soient utilisées pour me recontacter.</span>
           </label>
         </div>
-        <input type="hidden" name="_subject" value="Nouveau message – Réparer mon PC">
+
+        <input type="hidden" name="_subject" value="Nouveau message de Réparer mon PC">
         <button type="submit" class="btn primary">📩 Envoyer</button>
         <p id="form-status" class="muted" role="status" aria-live="polite" style="margin-top:10px"></p>
       </form>
@@ -280,6 +300,7 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
+
   <script>
     // Submit the Formspree form via fetch to stay on the page
     const form = document.getElementById('fs-contact');
@@ -303,7 +324,6 @@
       });
     }
   </script>
-
 
 </body>
 </html>
